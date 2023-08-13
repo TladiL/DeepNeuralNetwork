@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0ehWF1Mvd1VYq+mTVnJJEkC2up1Nx4xImXs1WaOl3Vj61+hHcXSmNB8aWIaJoTa56EZntbwr2rP0jfJzvYuPug==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\DeepNeuralNetwork\\DeepNeuralNetwork\\DeepNeuralNetwork.vcxproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.22000.29\\microsoft.windows.sdk.net.ref.10.0.22000.29.nupkg.sha512"
+  ],
+  "logs": []
+}

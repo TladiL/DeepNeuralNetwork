@@ -1,0 +1,6 @@
+﻿  main.cpp
+  NeuralNet.cpp
+  .NETCoreApp,Version=v7.0.AssemblyAttributes.cpp
+  Generating Code...
+  main.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  DeepNeuralNetwork.vcxproj -> C:\Projects\DeepNeuralNetwork\x64\Debug\DeepNeuralNetwork.dll

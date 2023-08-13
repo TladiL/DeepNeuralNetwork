@@ -1,0 +1,4 @@
+C:\Projects\DeepNeuralNetwork\x64\Debug\Ijwhost.dll
+C:\Projects\DeepNeuralNetwork\x64\Debug\DeepNeuralNetwork.deps.json
+C:\Projects\DeepNeuralNetwork\x64\Debug\DeepNeuralNetwork.runtimeconfig.json
+C:\Projects\DeepNeuralNetwork\DeepNeuralNetwork\x64\Debug\DeepNeuralNetwork.genruntimeconfig.cache
