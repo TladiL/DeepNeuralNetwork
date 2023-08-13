@@ -59,7 +59,7 @@ public:
 		for (;loc_data < loc_end; loc_data++, z_data++)
 		{
 			const int offset = *loc_data;
-			*z_data = internal::find_block_max(src + offset, m_pool_rows, m_pool_rows, m_pool_cols, m_channel_rows, *loc_data);
+			*z_data = internal::find_block_max(src + offset, m_pool_rows, m_pool_cols, m_channel_rows, *loc_data);
 			*loc_data += offset;
 		}
 
@@ -82,7 +82,7 @@ public:
 	std::vector<Scalar> get_derivatives() const {}
 
 private:
-	typedef Eigen::Matrix<Scale, Eigen::Dynamic, Eigen::Dynamic> Matrix;
+	typedef Eigen::Matrix<Scalar, Eigen::Dynamic, Eigen::Dynamic> Matrix;
 	typedef Eigen::MatrixXi IntMatrix;
 
 	const int m_channel_rows;

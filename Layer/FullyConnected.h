@@ -26,12 +26,12 @@ public:
 	}
 	void forward(const Matrix& prev_layer_data)
 	{
-		const int nobs = prev_layer_data.col();
+		const int nobs = prev_layer_data.cols();
 
 		// z = w' * in + b
 		m_z.resize(this->m_out_size, nobs);
 		m_z.noalias() = m_weight.transpose() * prev_layer_data;
-		m_z.colwise() += bias;
+		m_z.colwise() += m_bias;
 
 		// Apply the activation function
 		m_a.resize(this->m_out_size, nobs);
@@ -64,6 +64,9 @@ public:
 private:
 	typedef Eigen::Matrix<Scalar, Eigen::Dynamic, Eigen::Dynamic> Matrix;
 	typedef Eigen::Matrix<Scalar, Eigen::Dynamic, 1> Vector;
+
+	typedef Vector::ConstAlignedMapType ConstAlignedMapVec;
+	typedef Vector::AlignedMapType AlignedMapVec;
 
 	Matrix m_weight;
 	Vector m_bias;
