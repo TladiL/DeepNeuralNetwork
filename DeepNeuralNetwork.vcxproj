@@ -130,6 +130,8 @@
     <ClInclude Include="Optimizer.h" />
     <ClInclude Include="Output.h" />
     <ClInclude Include="RNG.h" />
+    <ClInclude Include="Utils\Convolution.h" />
+    <ClInclude Include="Utils\MaxAverage.h" />
     <ClInclude Include="Utils\Random.h" />
   </ItemGroup>
   <ItemGroup>
