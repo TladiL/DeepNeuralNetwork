@@ -61,8 +61,6 @@ public:
 	void set_parameter(const std::vector<Scalar>& param) {}
 	std::vector<Scalar> get_derivatives() const {}
 
-	~FullyConnected();
-
 private:
 	typedef Eigen::Matrix<Scalar, Eigen::Dynamic, Eigen::Dynamic> Matrix;
 	typedef Eigen::Matrix<Scalar, Eigen::Dynamic, 1> Vector;
