@@ -12,3 +12,6 @@
 #include "Output.h"
 #include "Output/MSE.h"
 #include "Output/CrossEntrophy.h"
+
+#include "Optimizer.h"
+#include "Optimizer/SGD.h"

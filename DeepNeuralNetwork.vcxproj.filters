@@ -98,6 +98,9 @@
     <ClInclude Include="Output\CrossEntrophy.h">
       <Filter>Header Files\Output</Filter>
     </ClInclude>
+    <ClInclude Include="Optimizer\SGD.h">
+      <Filter>Header Files\Optimizer</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitattributes" />
