@@ -25,3 +25,5 @@
 #include "Optimizer/RMSProp.h"
 #include "Optimizer/SGD.h"
 
+#include "Callback.h"
+#include "Callback/verbosecallback.h"

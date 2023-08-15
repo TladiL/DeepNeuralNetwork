@@ -125,6 +125,8 @@
     <ClInclude Include="Activation\Sigmoid.h" />
     <ClInclude Include="Activation\Softmax.h" />
     <ClInclude Include="Activation\Tanh.h" />
+    <ClInclude Include="Callback.h" />
+    <ClInclude Include="Callback\verbosecallback.h" />
     <ClInclude Include="Config.h" />
     <ClInclude Include="DNN.h" />
     <ClInclude Include="Layer.h" />

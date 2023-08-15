@@ -28,6 +28,9 @@
     <Filter Include="Header Files\Utils">
       <UniqueIdentifier>{85e2862e-6ae7-47ee-a72a-de41fd850a4d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Callback">
+      <UniqueIdentifier>{63ca5972-52b1-4325-ae73-f6aba16c946f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -130,6 +133,12 @@
     </ClInclude>
     <ClInclude Include="Optimizer\RMSProp.h">
       <Filter>Header Files\Optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Callback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Callback\verbosecallback.h">
+      <Filter>Header Files\Callback</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
