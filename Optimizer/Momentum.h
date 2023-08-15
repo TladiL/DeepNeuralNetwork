@@ -3,6 +3,7 @@
 #include "../Utils/sparsepp.h"
 #include "../Config.h"
 #include "../Optimizer.h"
+#include "../Utils/sparsepp.h"
 
 class Momentum : public Optimizer
 {
