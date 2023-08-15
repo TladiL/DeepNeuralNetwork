@@ -77,6 +77,21 @@
     <ClInclude Include="Utils\Convolution.h">
       <Filter>Header Files\Utils</Filter>
     </ClInclude>
+    <ClInclude Include="Activation\Identity.h">
+      <Filter>Header Files\Activation</Filter>
+    </ClInclude>
+    <ClInclude Include="Activation\ReLU.h">
+      <Filter>Header Files\Activation</Filter>
+    </ClInclude>
+    <ClInclude Include="Activation\Sigmoid.h">
+      <Filter>Header Files\Activation</Filter>
+    </ClInclude>
+    <ClInclude Include="Activation\Tanh.h">
+      <Filter>Header Files\Activation</Filter>
+    </ClInclude>
+    <ClInclude Include="Activation\Softmax.h">
+      <Filter>Header Files\Activation</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitattributes" />
