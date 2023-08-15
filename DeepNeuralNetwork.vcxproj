@@ -133,7 +133,10 @@
     <ClInclude Include="Layer\Pooling.h" />
     <ClInclude Include="NeuralNet.h" />
     <ClInclude Include="Optimizer.h" />
+    <ClInclude Include="Optimizer\SGD.h" />
     <ClInclude Include="Output.h" />
+    <ClInclude Include="Output\CrossEntrophy.h" />
+    <ClInclude Include="Output\MSE.h" />
     <ClInclude Include="RNG.h" />
     <ClInclude Include="Utils\Convolution.h" />
     <ClInclude Include="Utils\MaxAverage.h" />

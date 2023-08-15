@@ -8,3 +8,10 @@
 #include "Layer/FullyConnected.h"
 #include "Layer/Convolutional.h"
 #include "Layer/Pooling.h"
+
+#include "Output.h"
+#include "Output/MSE.h"
+#include "Output/CrossEntrophy.h"
+
+#include "Optimizer.h"
+#include "Optimizer/SGD.h"
