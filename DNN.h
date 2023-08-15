@@ -14,4 +14,14 @@
 #include "Output/CrossEntrophy.h"
 
 #include "Optimizer.h"
+#include "Optimizer/AdaDelta.h"
+#include "Optimizer/AdaGrad.h"
+#include "Optimizer/Adam.h"
+#include "Optimizer/AdaMAX.h"
+#include "Optimizer/AMSGrad.h"
+#include "Optimizer/Momentum.h"
+#include "Optimizer/Nadam.h"
+#include "Optimizer/NAG.h"
+#include "Optimizer/RMSProp.h"
 #include "Optimizer/SGD.h"
+

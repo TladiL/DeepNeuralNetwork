@@ -133,6 +133,15 @@
     <ClInclude Include="Layer\Pooling.h" />
     <ClInclude Include="NeuralNet.h" />
     <ClInclude Include="Optimizer.h" />
+    <ClInclude Include="Optimizer\AdaDelta.h" />
+    <ClInclude Include="Optimizer\AdaGrad.h" />
+    <ClInclude Include="Optimizer\Adam.h" />
+    <ClInclude Include="Optimizer\AdaMAX.h" />
+    <ClInclude Include="Optimizer\AMSGrad.h" />
+    <ClInclude Include="Optimizer\Momentum.h" />
+    <ClInclude Include="Optimizer\Nadam.h" />
+    <ClInclude Include="Optimizer\NAG.h" />
+    <ClInclude Include="Optimizer\RMSProp.h" />
     <ClInclude Include="Optimizer\SGD.h" />
     <ClInclude Include="Output.h" />
     <ClInclude Include="Output\CrossEntrophy.h" />
@@ -141,6 +150,7 @@
     <ClInclude Include="Utils\Convolution.h" />
     <ClInclude Include="Utils\MaxAverage.h" />
     <ClInclude Include="Utils\Random.h" />
+    <ClInclude Include="Utils\sparsepp.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitattributes" />
